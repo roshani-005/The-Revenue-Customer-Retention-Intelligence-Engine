@@ -2,7 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-Advanced_CTEs-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://roshani-005-the-revenue-customer-retention-intell-appapp-lcwtt5.streamlit.app/)
 [![Scikit-Learn](https://img.shields.io/badge/ML-Gradient_Boosting-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 [![AI Copilot](https://img.shields.io/badge/AI_Copilot-Gemini_Augmented-8E75C2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
@@ -119,7 +119,7 @@ streamlit run app/app.py
 
 ---
 
-## 📄 ATS Resume Bullets (Ready to Use)
+## 📄 Resume Bullets 
 
 ```markdown
 Customer Retention & Revenue Intelligence Engine | SQL, Python, Streamlit, Scikit-Learn
@@ -134,4 +134,3 @@ Customer Retention & Revenue Intelligence Engine | SQL, Python, Streamlit, Sciki
 ## 👤 Author & Contact
 * **Author:** Roshani Yadav
 * **GitHub:** [@roshani-005](https://github.com/roshani-005)
-* **Target Role:** Data Analyst / Product Analyst / Business Intelligence Engineer
