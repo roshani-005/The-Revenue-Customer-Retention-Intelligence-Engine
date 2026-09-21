@@ -1,0 +1,20 @@
+feature,importance
+avg_resolution_time_hrs,0.32032676398897797
+license_utilization_rate,0.13750412353507055
+csat_score,0.10972772163088244
+mrr,0.10117662085256111
+api_calls_monthly,0.07177929506680104
+seats_purchased,0.05806314460764838
+feature_adoption_score,0.05151457701430411
+last_active_days_ago,0.049738852206425564
+billing_cycle_Monthly,0.03126032780754443
+total_tickets,0.02551630047462445
+weekly_active_days,0.017255519015325255
+escalated_tickets_count,0.011828519611166962
+industry_SaaS / Tech,0.00523602869394138
+industry_Fintech,0.003348886009226459
+industry_Logistics & Supply Chain,0.0024389891882670373
+industry_E-Commerce,0.0015656549334734622
+industry_Healthcare,0.0014390916942950106
+tier_SMB,0.00019554559226266067
+tier_Mid-Market,8.403807720175601e-05

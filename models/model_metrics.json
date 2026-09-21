@@ -1,0 +1,17 @@
+{
+    "accuracy": 0.786,
+    "roc_auc": 0.7814,
+    "precision": 0.6287,
+    "recall": 0.4774,
+    "f1_score": 0.5427,
+    "confusion_matrix": [
+        [
+            659,
+            75
+        ],
+        [
+            139,
+            127
+        ]
+    ]
+}
