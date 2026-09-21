@@ -38,6 +38,7 @@ flowchart LR
 | **#1 Churn Driver** | **Support SLA Lag (`> 48 hrs`)** | Automated CSM alerts on tickets reaching 24 hours | Reduces high-value account churn by **28%** |
 | **Contract Cycle** | Monthly plans churn at **2.4x** annual rate | 15% incentive to switch to annual billing | Improves Net Retention Rate to **104.5%** |
 | **What-If Simulation** | 2.5% overall churn rate reduction | Targeted SLA triage across Enterprise & Mid-Market | **$3,328,000 Annual Recurring Revenue Protected** |
+Dashboard:https://roshani-005-the-revenue-customer-retention-intell-appapp-lcwtt5.streamlit.app/
 
 ---
 
