@@ -6,8 +6,14 @@ Production-grade B2B SaaS Executive Dashboard with Integrated AI Decision Copilo
 import sys
 import os
 
-# Add root directory to path for clean imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Add directories to sys.path robustly
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+if CURRENT_DIR not in sys.path:
+    sys.path.insert(0, CURRENT_DIR)
 
 import streamlit as st
 import pandas as pd
@@ -15,13 +21,23 @@ import numpy as np
 import plotly.express as px
 import joblib
 
-from app.utils import get_db_connection, load_master_data, calculate_kpis, get_cohort_matrix
-from app.components import (
-    plot_cohort_heatmap,
-    plot_feature_importance,
-    plot_support_vs_churn,
-    plot_mrr_by_tier
-)
+try:
+    from utils import get_db_connection, load_master_data, calculate_kpis, get_cohort_matrix
+    from components import (
+        plot_cohort_heatmap,
+        plot_feature_importance,
+        plot_support_vs_churn,
+        plot_mrr_by_tier
+    )
+except (ImportError, ModuleNotFoundError):
+    from app.utils import get_db_connection, load_master_data, calculate_kpis, get_cohort_matrix
+    from app.components import (
+        plot_cohort_heatmap,
+        plot_feature_importance,
+        plot_support_vs_churn,
+        plot_mrr_by_tier
+    )
+
 from ai_copilot.executive_copilot import RetentionCopilot
 from ai_copilot.text_to_insights import NaturalLanguageQueryEngine
 
